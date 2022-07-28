@@ -1,0 +1,88 @@
+div {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    }
+p {
+    font-style: italic;
+    font-size: 30px; 
+    margin-left: 60px;
+    position: relative;
+  }
+h1 {
+    font-size: 40px; 
+  }
+h1:hover {
+  color: purple;
+}
+h3:hover {
+  color: aqua;
+}
+li {
+    list-style-type: none; 
+   }
+li:before {
+    color: white; 
+    content: "﻿๏̯͡๏  "; 
+    padding-right: 10px;
+   }
+   li:hover {
+    font-size: 50px;
+   }
+  img {
+    cursor: grab;
+  }
+  button:hover {
+   color: purple;
+   cursor: wait;
+  }
+.letter { 
+    color: red;
+    top: 5px;
+    font-size: 40px;  
+}
+.html { 
+  color: yellow;
+  top: 5px;
+  font-size: 40px;  
+}
+.css { 
+  color: blue;
+  top: 5px;
+  font-size: 40px;  
+}
+.js { 
+  color: greenyellow;
+  top: 5px;
+  font-size: 40px;  
+}
+.callback
+{
+  color: aqua;
+  top: 5px;
+  font-size: 40px;  
+}
+.front
+{
+  color: rebeccapurple;
+  top: 5px;
+  font-size: 40px;  
+}
+.currying
+{
+  color: lightpink;
+  top: 5px;
+  font-size: 40px;  
+}
+.closures
+{
+  color: grey;
+  top: 5px;
+  font-size: 40px;  
+}
+.recursion
+{
+  color: violet;
+  top: 5px;
+  font-size: 40px;  
+}
