@@ -1,6 +1,6 @@
 div {
     background-color: black;
-    color: white;
+    color: aqua;
     cursor: pointer;
     }
 p {
@@ -16,14 +16,14 @@ h1:hover {
   color: purple;
 }
 h3:hover {
-  color: aqua;
+  color: yellow;
 }
 li {
     list-style-type: none; 
    }
 li:before {
-    color: white; 
-    content: "๏̯͡๏" 
+    color: aqua; 
+    content: "﻿๏̯͡๏  "; 
     padding-right: 10px;
    }
    li:hover {
@@ -58,13 +58,13 @@ li:before {
 }
 .callback
 {
-  color: aqua;
+  color: purple;
   top: 5px;
   font-size: 40px;  
 }
 .front
 {
-  color: rebeccapurple;
+  color: orange;
   top: 5px;
   font-size: 40px;  
 }
@@ -85,4 +85,13 @@ li:before {
   color: violet;
   top: 5px;
   font-size: 40px;  
+}
+select
+{
+width: 300px;
+font-size: 1000px;
+}
+button
+{
+  background-color: aqua;
 }
