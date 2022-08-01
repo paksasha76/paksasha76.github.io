@@ -18,15 +18,16 @@ h1:hover {
 h3:hover {
   color: yellow;
 }
-li {
+ol li {
     list-style-type: none; 
+    cursor: zoom-in;
    }
-li:before {
+ol li:before {
     color: aqua; 
     content: "﻿๏̯͡๏  "; 
     padding-right: 10px;
    }
-   li:hover {
+ ol li:hover {
     font-size: 50px;
    }
   img {
@@ -86,12 +87,52 @@ li:before {
   top: 5px;
   font-size: 40px;  
 }
-select
-{
-width: 300px;
-font-size: 1000px;
-}
+  select
+  {
+    font-size: 50px;
+    width:150px;
+  }
 button
 {
   background-color: aqua;
+}
+.footer {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 240px;
+}
+nav {
+  width: 960px;
+  margin: 0 auto;
+}
+nav:before {
+  content:'';
+  display:block;
+  height:50px;
+  width:100%;
+  background: black;
+  position: absolute;
+  left:0;
+  z-index:-1;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:60px;
+}
+ nav ul li {
+  float:left;
+}
+ nav ul li a{
+  color:aqua;
+  display:block;
+  height:60px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none; 
+  line-height:50px;
+}
+ nav ul li a:hover{
+  background: red;
 }
