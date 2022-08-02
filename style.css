@@ -24,7 +24,7 @@ ol li {
    }
 ol li:before {
     color: aqua; 
-    content: "๏_๏"; 
+    content: "﻿๏̯͡๏  "; 
     padding-right: 10px;
    }
  ol li:hover {
@@ -89,8 +89,8 @@ ol li:before {
 }
   select
   {
-    font-size: 30px;
-    width:60px;
+    font-size: 50px;
+    width:150px;
   }
 button
 {
