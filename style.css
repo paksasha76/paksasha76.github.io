@@ -5,12 +5,14 @@ div {
     }
 p {
     font-style: italic;
-    font-size: 30px; 
+    font-size: 35px; 
     margin-left: 60px;
     position: relative;
   }
 h1 {
     font-size: 40px; 
+    font-style: italic; 
+    text-align: center;
   }
 h1:hover {
   color: purple;
@@ -24,7 +26,7 @@ ol li {
    }
 ol li:before {
     color: aqua; 
-    content: "﻿๏_๏"; 
+    content: "﻿๏̯͡๏  "; 
     padding-right: 10px;
    }
  ol li:hover {
@@ -89,7 +91,8 @@ ol li:before {
 }
   select
   {
-    font-size: 30px;
+    font-size: 50px;
+    width:150px;
   }
 button
 {
@@ -131,6 +134,7 @@ nav ul{
   text-transform:uppercase;
   text-decoration:none; 
   line-height:50px;
+  transition-duration: 1s;
 }
  nav ul li a:hover{
   background: red;
