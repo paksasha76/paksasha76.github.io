@@ -139,3 +139,6 @@ nav ul{
  nav ul li a:hover{
   background: red;
 }
+li{
+  width: fit-content
+}
