@@ -7,18 +7,18 @@
     <meta http-equiv="content-security-policy" content="script-src 'self'">
     <title>Авторизация</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://cdn1.ozone.ru/s3/multimedia-x/c1200/6070391301.jpg" type="image/x-icon">
 </head>
 <body style=background-color:black;>
     <h1 style=color:aqua>Авторизация</h1>
-    <form style = color:aqua;>
-      Имя пользователя
+    <form style = color:aqua; action="/" method="">
+      Логин
       <br>
-      <input type="text" name="login">
+      <input type="text" name="login" maxlength="15">
       <br>
       Пароль
       <br>
-      <input type="password" name="password">
+      <input type="password" name="password" maxlength="30">
     </form>
+    <button>Вход</button>
 </body>
 </html>

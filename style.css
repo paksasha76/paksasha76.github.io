@@ -34,6 +34,7 @@ ol li:before {
    }
   img {
     cursor: grab;
+
   }
   button:hover {
    color: purple;
@@ -140,5 +141,5 @@ nav ul{
   background: red;
 }
 li{
-  width: fit-content
+  width: fit-content;
 }
